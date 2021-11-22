@@ -5,8 +5,8 @@ function sub_set(k, s) {
     }
     for (i of s){
         array[i%k]+=1}
-    let count=0
-    count=Math.min(array[0],1)
+    
+    let count=Math.min(array[0],1)
     for (var i = 1 ; i<Math.floor(k/2)+1;i++){
         if (i == k-i){
             count+=1
